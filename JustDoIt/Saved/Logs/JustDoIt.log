@@ -1,155 +1,1296 @@
-﻿[2015.07.04-12.25.47:134][  0]Log file open, 07/04/15 15:25:47
-[2015.07.04-12.25.47:134][  0]LogInit:Display: Running engine for game: JustDoIt
-[2015.07.04-12.25.47:134][  0]LogInit:Display: RandInit(1851432509) SRandInit(1851432509).
-[2015.07.04-12.25.47:134][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.07.04-12.25.47:134][  0]LogStats: Stats thread started
-[2015.07.04-12.25.47:134][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.04-12.25.47:134][  0]LogInit: API Version: 2579680
-[2015.07.04-12.25.47:134][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
-[2015.07.04-12.25.47:134][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.07.04-12.25.47:134][  0]LogInit: Build Configuration: Development
-[2015.07.04-12.25.47:134][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.07.04-12.25.47:134][  0]LogInit: Command line:  
-[2015.07.04-12.25.47:134][  0]LogInit: Base directory: F:/GameDevelopment/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.07.04-12.25.47:134][  0]LogInit: Rocket: 1
-[2015.07.04-12.25.47:155][  0]LogInit: Using libcurl 7.41.0
-[2015.07.04-12.25.47:155][  0]LogInit:  - built for x86_64-pc-win32
-[2015.07.04-12.25.47:155][  0]LogInit:  - supports SSL with WinSSL
-[2015.07.04-12.25.47:155][  0]LogInit:  - other features:
-[2015.07.04-12.25.47:155][  0]LogInit:      CURL_VERSION_SSL
-[2015.07.04-12.25.47:155][  0]LogInit:      CURL_VERSION_IPV6
-[2015.07.04-12.25.47:155][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.07.04-12.25.47:155][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.07.04-12.25.47:155][  0]LogInit:      CURL_VERSION_IDN
-[2015.07.04-12.25.47:155][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.07.04-12.25.47:155][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.07.04-12.25.47:155][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.07.04-12.25.47:155][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.07.04-12.25.47:155][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.07.04-12.25.47:181][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.07.04-12.25.47:203][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.07.04-12.25.47:221][  0]LogInit: Object subsystem initialized
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.07.04-12.25.47:222][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.04-12.25.47:223][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.04-12.25.47:223][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.07.04-12.25.47:236][  0]LogInit: Computer: NIKPC
-[2015.07.04-12.25.47:236][  0]LogInit: User: Nikita
-[2015.07.04-12.25.47:236][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.07.04-12.25.47:236][  0]LogInit: High frequency timer resolution =1.753831 MHz
-[2015.07.04-12.25.47:236][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.07.04-12.25.47:236][  0]LogMemory: Platform Memory Stats for Windows
-[2015.07.04-12.25.47:236][  0]LogMemory: Process Physical Memory: 48.61 MB used, 48.61 MB peak
-[2015.07.04-12.25.47:236][  0]LogMemory: Process Virtual Memory: 24.45 MB used, 24.45 MB peak
-[2015.07.04-12.25.47:236][  0]LogMemory: Physical Memory: 3766.35 MB used, 8077.30 MB total
-[2015.07.04-12.25.47:236][  0]LogMemory: Virtual Memory: 297.03 MB used, 134217728.00 MB total
-[2015.07.04-12.25.47:278][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.07.04-12.25.47:809][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.07.04-17.44.37:888][  0]Log file open, 07/04/15 20:44:37
+[2015.07.04-17.44.37:888][  0]LogInit:Display: Running engine for game: JustDoIt
+[2015.07.04-17.44.37:888][  0]LogInit:Display: RandInit(1044252228) SRandInit(1044252228).
+[2015.07.04-17.44.37:888][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.04-17.44.37:888][  0]LogStats: Stats thread started
+[2015.07.04-17.44.37:888][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.04-17.44.37:888][  0]LogInit: API Version: 2579680
+[2015.07.04-17.44.37:888][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.04-17.44.37:888][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.04-17.44.37:888][  0]LogInit: Build Configuration: Development
+[2015.07.04-17.44.37:888][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.04-17.44.37:888][  0]LogInit: Command line:  
+[2015.07.04-17.44.37:888][  0]LogInit: Base directory: F:/GameDevelopment/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.04-17.44.37:888][  0]LogInit: Rocket: 1
+[2015.07.04-17.44.37:911][  0]LogInit: Using libcurl 7.41.0
+[2015.07.04-17.44.37:911][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.04-17.44.37:911][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.04-17.44.37:911][  0]LogInit:  - other features:
+[2015.07.04-17.44.37:911][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.04-17.44.37:911][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.04-17.44.37:911][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.04-17.44.37:911][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.04-17.44.37:911][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.04-17.44.37:912][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.04-17.44.37:912][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.04-17.44.37:912][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.04-17.44.37:912][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.04-17.44.37:912][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.04-17.44.37:931][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.04-17.44.37:956][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.04-17.44.37:969][  0]LogInit: Object subsystem initialized
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.04-17.44.37:971][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-17.44.37:971][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.04-17.44.37:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.04-17.44.38:007][  0]LogInit: Computer: NIKPC
+[2015.07.04-17.44.38:007][  0]LogInit: User: Nikita
+[2015.07.04-17.44.38:007][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.04-17.44.38:007][  0]LogInit: High frequency timer resolution =1.753831 MHz
+[2015.07.04-17.44.38:007][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.04-17.44.38:007][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.04-17.44.38:007][  0]LogMemory: Process Physical Memory: 48.81 MB used, 48.81 MB peak
+[2015.07.04-17.44.38:007][  0]LogMemory: Process Virtual Memory: 24.45 MB used, 25.36 MB peak
+[2015.07.04-17.44.38:007][  0]LogMemory: Physical Memory: 3724.84 MB used, 8077.30 MB total
+[2015.07.04-17.44.38:007][  0]LogMemory: Virtual Memory: 297.03 MB used, 134217728.00 MB total
+[2015.07.04-17.44.38:049][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.04-17.44.38:416][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (F:/GameDevelopment/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (F:/GameDevelopment/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.07.04-12.25.48:683][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.07.04-12.25.48:683][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
-[2015.07.04-12.25.48:706][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
-[2015.07.04-12.25.48:706][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.07.04-12.25.48:707][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.07.04-12.25.48:707][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.07.04-12.25.48:707][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.07.04-12.25.48:713][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.07.04-12.25.48:733][  0]LogD3D11RHI: Async texture creation enabled
-[2015.07.04-12.25.48:753][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.07.04-12.25.50:480][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.07.04-12.25.50:517][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.07.04-12.25.50:551][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.07.04-12.25.50:609][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.07.04-12.25.50:645][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.07.04-12.25.50:679][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.07.04-12.25.50:712][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.07.04-12.25.50:745][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.07.04-12.25.50:771][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.07.04-12.25.50:797][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.07.04-12.25.50:826][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.07.04-12.25.50:855][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.07.04-12.25.50:945][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.07.04-12.25.50:971][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.07.04-12.25.51:000][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.07.04-12.25.51:030][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.07.04-12.25.51:030][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.07.04-12.25.51:433][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache: Loaded boot cache 0.12s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.07.04-12.25.51:550][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.07.04-12.25.51:825][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.07.04-12.25.51:840][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.07.04-12.25.52:281][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.04-12.25.52:445][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.04-12.25.52:446][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.04-12.25.52:494][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.07.04-12.25.52:494][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.07.04-12.25.53:128][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.07.04-12.25.54:987][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.07.04-12.25.55:645][  0]SourceControl: Info Source control is disabled
-[2015.07.04-12.25.55:666][  0]SourceControl: Info Source control is disabled
-[2015.07.04-12.25.55:685][  0]SourceControl: Info Source control is disabled
-[2015.07.04-12.25.55:702][  0]SourceControl: Info Source control is disabled
-[2015.07.04-12.25.56:236][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.07.04-12.25.56:236][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
-[2015.07.04-12.25.56:363][  0]LogEngine: Initializing Engine...
-[2015.07.04-12.25.56:365][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.07.04-12.25.56:367][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.07.04-12.25.56:643][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.07.04-12.25.56:651][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.07.04-12.25.56:662][  0]LogInit: FAudioDevice initialized.
-[2015.07.04-12.25.56:925][  0]LogDerivedDataCache: Saved boot cache 0.26s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.04-12.25.56:932][  0]LogInit: Texture streaming: Disabled
-[2015.07.04-12.25.56:978][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.07.04-12.25.56:978][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.04-12.25.56:978][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 412554c84dce0172ced9c993479e3b4a|211b3dab690f4096afd4dd007df595dd|a7c4cc10-e2dd-4cbc-a537-941298a0deb0
-[2015.07.04-12.25.56:978][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.07.04-12.25.57:028][  0]LogInit: Transaction tracking system initialized
-[2015.07.04-12.25.57:395][  0]BlueprintLog: New page: Editor Load
-[2015.07.04-12.25.57:464][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2015.07.04-12.25.57:465][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.07.04-12.25.59:296][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.07.04-12.25.59:297][  0]LogConsoleResponse:Display: 
-[2015.07.04-12.25.59:574][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.07.04-12.26.00:052][  0]SourceControl: Info Source control is disabled
-[2015.07.04-12.26.00:052][  0]Cmd: MAP LOAD FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.07.04-12.26.00:053][  0]LightingResults: New page: Lighting Build
-[2015.07.04-12.26.00:080][  0]MapCheck: New page: Map Check
-[2015.07.04-12.26.00:080][  0]LightingResults: New page: Lighting Build
-[2015.07.04-12.26.00:117][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FEC50D4B80
-[2015.07.04-12.26.08:256][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.04-12.26.08:268][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.07.04-12.26.08:316][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.07.04-12.26.08:438][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.48ms to complete.
-[2015.07.04-12.26.08:438][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.386
-[2015.07.04-12.26.08:513][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.07.04-12.26.08:575][  0]LogCollectionManager: Loaded 0 collections in 0.004986 seconds
-[2015.07.04-12.26.08:592][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 1792 classes and 301 folders.
-[2015.07.04-12.26.08:680][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2015.07.04-12.26.08:727][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2015.07.04-12.26.08:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2015.07.04-12.26.08:977][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.07.04-12.26.08:984][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.07.04-12.26.09:011][  0]LogLoad: Full Startup: 25.01 seconds (BP compile: 4.78 seconds)
-[2015.07.04-12.26.09:111][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.07.04-12.26.09:171][  0]LogContentStreaming: Texture pool size now 200 MB
-[2015.07.04-12.26.09:384][  0]LogRenderer: Reallocating scene render targets to support 768x592 (Frame:2).
-[2015.07.04-12.26.09:501][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
-	FP_BP_C /Engine/Transient.CharacterMesh0:FP_BP_C_0
-	Function /Game/FP/BP_Anims/FP_BP.FP_BP_C:ExecuteUbergraph_FP_BP:19A2
-[2015.07.04-12.26.09:501][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
-	FP_BP_C /Engine/Transient.CharacterMesh0:FP_BP_C_0
-	Function /Game/FP/BP_Anims/FP_BP.FP_BP_C:ExecuteUbergraph_FP_BP:19CD
-[2015.07.04-12.26.09:501][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
-	FP_BP_C /Engine/Transient.CharacterMesh0:FP_BP_C_0
-	Function /Game/FP/BP_Anims/FP_BP.FP_BP_C:ExecuteUbergraph_FP_BP:1A3C
-[2015.07.04-12.26.09:501][  1]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
-	FP_
+[2015.07.04-17.44.39:130][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.07.04-17.44.39:130][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.07.04-17.44.39:145][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2015.07.04-17.44.39:145][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.04-17.44.39:147][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.04-17.44.39:147][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.04-17.44.39:147][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.04-17.44.39:152][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.04-17.44.39:167][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.04-17.44.39:188][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.04-17.44.41:686][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.04-17.44.41:707][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.04-17.44.41:726][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.04-17.44.41:749][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.04-17.44.41:772][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.04-17.44.41:791][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.04-17.44.41:810][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.04-17.44.41:834][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.04-17.44.41:853][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.04-17.44.41:872][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.04-17.44.41:894][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.04-17.44.41:914][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.04-17.44.42:015][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.04-17.44.42:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.04-17.44.42:058][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.04-17.44.42:079][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.04-17.44.42:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.04-17.44.42:395][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.04-17.44.43:112][  0]LogDerivedDataCache: Loaded boot cache 0.72s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.04-17.44.43:112][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.04-17.44.43:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.04-17.44.43:112][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.04-17.44.43:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.04-17.44.43:113][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.04-17.44.43:424][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.04-17.44.43:436][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.04-17.44.49:971][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.04-17.44.50:438][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.04-17.44.50:439][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.04-17.44.50:578][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.04-17.44.50:578][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.04-17.44.53:177][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.04-17.45.07:561][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.04-17.45.09:471][  0]SourceControl: Info Source control is disabled
+[2015.07.04-17.45.09:832][  0]SourceControl: Info Source control is disabled
+[2015.07.04-17.45.09:886][  0]SourceControl: Info Source control is disabled
+[2015.07.04-17.45.09:952][  0]SourceControl: Info Source control is disabled
+[2015.07.04-17.45.11:219][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.04-17.45.11:219][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.04-17.45.11:688][  0]LogEngine: Initializing Engine...
+[2015.07.04-17.45.11:723][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.04-17.45.11:837][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.04-17.45.12:690][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.04-17.45.12:736][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.45.12:746][  0]LogInit: FAudioDevice initialized.
+[2015.07.04-17.45.12:789][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.04-17.45.12:796][  0]LogInit: Texture streaming: Disabled
+[2015.07.04-17.45.12:867][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.04-17.45.12:867][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.04-17.45.12:868][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 412554c84dce0172ced9c993479e3b4a|211b3dab690f4096afd4dd007df595dd|a7c4cc10-e2dd-4cbc-a537-941298a0deb0
+[2015.07.04-17.45.12:878][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.04-17.45.13:011][  0]LogInit: Transaction tracking system initialized
+[2015.07.04-17.45.14:474][  0]BlueprintLog: New page: Editor Load
+[2015.07.04-17.45.14:545][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.07.04-17.45.14:545][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.04-17.45.21:490][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.04-17.45.21:490][  0]LogConsoleResponse:Display: 
+[2015.07.04-17.45.23:950][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.04-17.45.25:581][  0]SourceControl: Info Source control is disabled
+[2015.07.04-17.45.25:582][  0]Cmd: MAP LOAD FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.04-17.45.25:600][  0]LightingResults: New page: Lighting Build
+[2015.07.04-17.45.25:640][  0]MapCheck: New page: Map Check
+[2015.07.04-17.45.25:640][  0]LightingResults: New page: Lighting Build
+[2015.07.04-17.45.25:663][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D7BC0CB80
+[2015.07.04-17.45.37:045][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.45.37:274][  0]LogEditorServer: Finished looking for orphan Actors (0.050 secs)
+[2015.07.04-17.45.37:311][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.04-17.45.37:412][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.669ms to complete.
+[2015.07.04-17.45.37:412][  0]LogFileHelpers: Loading map 'Minimal_Default' took 11.831
+[2015.07.04-17.45.37:643][  0]LogCollectionManager: Loaded 0 collections in 0.004109 seconds
+[2015.07.04-17.45.37:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0536 seconds. Added 1792 classes and 301 folders.
+[2015.07.04-17.45.37:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.07.04-17.45.38:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.04-17.45.38:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.07.04-17.45.38:965][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.04-17.45.39:010][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.04-17.45.39:053][  0]LogLoad: Full Startup: 64.02 seconds (BP compile: 3.45 seconds)
+[2015.07.04-17.45.39:062][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-17.45.39:276][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.04-17.45.39:422][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.07.04-17.45.39:754][  0]LogRenderer: Reallocating scene render targets to support 1008x592 (Frame:2).
+[2015.07.04-17.45.39:901][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.45.39:901][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.45.39:901][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.45.39:901][  1]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.45.39:901][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.45.39:902][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.45.39:902][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.45.39:902][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.45.39:902][  1]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.45.39:902][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.45.41:220][ 14]LogAssetRegistry: Asset discovery search completed in 26.6862 seconds
+[2015.07.04-17.49.15:598][269]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-17.49.15:598][269]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-17.49.15:626][269]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.49.15:750][269]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:49:15 PM)
+[2015.07.04-17.49.15:751][269]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.49.15:768][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016634s)
+[2015.07.04-17.49.15:769][269]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.49.15:770][269]LogPlayLevel: PIE: World Init took: (0.002084s)
+[2015.07.04-17.49.15:770][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019135s)
+[2015.07.04-17.49.15:770][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.49.16:174][269]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.49.16:186][269]LogInit: FAudioDevice initialized.
+[2015.07.04-17.49.16:349][269]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.49.16:524][269]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.49.16
+[2015.07.04-17.49.16:524][269]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.49.16:525][269]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.49.16:526][269]LogWorld: Bringing up level for play took: 0.163488
+[2015.07.04-17.49.16:535][269]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.951
+[2015.07.04-17.49.44:589][296]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.49.44:756][297]LogRenderer: Reallocating scene render targets to support 1184x664 (Frame:6858).
+[2015.07.04-17.49.44:832][298]LogRenderer: Reallocating scene render targets to support 1368x728 (Frame:6860).
+[2015.07.04-17.50.16:689][441]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.50.24:708][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D05929440
+[2015.07.04-17.50.49:101][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.50.49:101][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.50.49:101][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.50.49:101][643]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.50.49:101][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.50.49:102][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.50.49:102][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.50.49:102][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.50.49:102][643]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.50.49:102][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.50.50:041][682]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.04-17.50.50:126][682]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.04-17.51.20:673][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-17.51.21:472][387]LogSavePackage: Save=698.622070ms
+[2015.07.04-17.51.21:472][387]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charECE12CD345247CE7CFCE5FB1B674FB57.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-17.51.25:408][690]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.51.25:408][690]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:51:25 PM)
+[2015.07.04-17.51.25:409][690]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.51.25:421][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012363s)
+[2015.07.04-17.51.25:422][690]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.51.25:423][690]LogPlayLevel: PIE: World Init took: (0.002067s)
+[2015.07.04-17.51.25:423][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014745s)
+[2015.07.04-17.51.25:424][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.51.25:518][690]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.51.25:526][690]LogInit: FAudioDevice initialized.
+[2015.07.04-17.51.25:573][690]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.51.25:584][690]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.51.25
+[2015.07.04-17.51.25:584][690]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.51.25:585][690]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.51.25:586][690]LogWorld: Bringing up level for play took: 0.011321
+[2015.07.04-17.51.25:593][690]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.01
+[2015.07.04-17.51.28:672][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D130C3B00
+[2015.07.04-17.51.36:829][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.51.36:829][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.51.36:829][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.51.36:829][564]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.51.36:829][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.51.36:830][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.51.36:830][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.51.36:830][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.51.36:830][564]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.51.36:830][564]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.51.52:582][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-17.51.53:291][704]LogSavePackage: Save=693.171692ms
+[2015.07.04-17.51.53:291][704]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char5A38DCFE47E20453B88795841C9E43D4.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-17.51.53:580][728]BlueprintLog: New page: Compile FP_char
+[2015.07.04-17.51.54:640][728]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.51.54:790][728]BlueprintEditorCompileResults: Info [0439.76] Compile of FP_char successful! [in 1,209 ms]
+[2015.07.04-17.51.54:791][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.51.54:791][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.51.54:791][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.51.54:791][728]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.51.54:791][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.51.54:792][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.51.54:792][728]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_2
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.51.56:190][793]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.51.56:190][793]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:51:56 PM)
+[2015.07.04-17.51.56:191][793]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.51.56:205][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014614s)
+[2015.07.04-17.51.56:206][793]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.51.56:207][793]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2015.07.04-17.51.56:207][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016451s)
+[2015.07.04-17.51.56:207][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.51.56:285][793]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.51.56:293][793]LogInit: FAudioDevice initialized.
+[2015.07.04-17.51.56:334][793]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.51.56:346][793]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.51.56
+[2015.07.04-17.51.56:346][793]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.51.56:347][793]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.51.56:347][793]LogWorld: Bringing up level for play took: 0.011241
+[2015.07.04-17.51.56:356][793]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.773
+[2015.07.04-17.52.16:849][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D10B9ADE0
+[2015.07.04-17.52.18:620][634]LogSavePackage: Save=285.639832ms
+[2015.07.04-17.52.18:620][634]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Minimal_Default8DB6AC214534A195599821873D14ABED.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.04-17.53.20:954][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.53.20:954][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.53.20:955][928]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.53.25:281][941]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-17.53.25:281][941]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-17.53.26:438][983]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.53.26:438][983]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:53:26 PM)
+[2015.07.04-17.53.26:450][983]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.53.26:471][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020285s)
+[2015.07.04-17.53.26:471][983]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.53.26:472][983]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2015.07.04-17.53.26:473][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022564s)
+[2015.07.04-17.53.26:473][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.53.26:568][983]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.53.26:578][983]LogInit: FAudioDevice initialized.
+[2015.07.04-17.53.26:628][983]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.53.26:645][983]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.53.26
+[2015.07.04-17.53.26:646][983]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.53.26:646][983]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.53.26:647][983]LogWorld: Bringing up level for play took: 0.015499
+[2015.07.04-17.53.26:659][983]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.077
+[2015.07.04-17.53.28:595][ 89]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.54.32:197][249]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.54.32:793][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0E14A340
+[2015.07.04-17.55.09:979][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.55.09:979][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.55.09:979][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.55.09:979][965]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.55.09:979][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.55.09:980][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-17.55.09:980][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-17.55.09:980][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-17.55.09:980][965]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-17.55.09:980][965]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-17.55.54:196][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.04-17.55.54:387][136]LogSavePackage: Save=118.907127ms
+[2015.07.04-17.55.54:388][136]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/AssaultRifle71B187064D6211C17299689E5BC6478D.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.04-17.55.54:560][143]BlueprintLog: New page: Compile AssaultRifle
+[2015.07.04-17.55.54:702][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-17.55.55:113][143]BlueprintEditorCompileResults: Info [0680.08] Compile of AssaultRifle successful! [in 553 ms]
+[2015.07.04-17.55.56:214][188]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.55.56:214][188]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:55:56 PM)
+[2015.07.04-17.55.56:215][188]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.55.56:228][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013204s)
+[2015.07.04-17.55.56:229][188]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.55.56:230][188]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2015.07.04-17.55.56:230][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015529s)
+[2015.07.04-17.55.56:321][188]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.55.56:332][188]LogInit: FAudioDevice initialized.
+[2015.07.04-17.55.56:382][188]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.55.56:394][188]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.55.56
+[2015.07.04-17.55.56:394][188]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.55.56:395][188]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.55.56:396][188]LogWorld: Bringing up level for play took: 0.010844
+[2015.07.04-17.55.56:404][188]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.821
+[2015.07.04-17.56.02:885][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D199CC400
+[2015.07.04-17.56.07:075][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.04-17.56.07:230][704]LogSavePackage: Save=142.082672ms
+[2015.07.04-17.56.07:230][704]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/AssaultRifle93C93FBA4C9251BD8B881A9B00047228.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.04-17.56.07:550][717]BlueprintLog: New page: Compile AssaultRifle
+[2015.07.04-17.56.08:060][717]BlueprintEditorCompileResults: Info [0693.03] Compile of AssaultRifle successful! [in 508 ms]
+[2015.07.04-17.56.09:197][762]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.56.09:197][762]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:56:09 PM)
+[2015.07.04-17.56.09:197][762]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.56.09:211][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013338s)
+[2015.07.04-17.56.09:211][762]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.56.09:212][762]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2015.07.04-17.56.09:212][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015001s)
+[2015.07.04-17.56.09:301][762]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.56.09:309][762]LogInit: FAudioDevice initialized.
+[2015.07.04-17.56.09:363][762]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.56.09:374][762]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.56.09
+[2015.07.04-17.56.09:374][762]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.56.09:375][762]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.56.09:376][762]LogWorld: Bringing up level for play took: 0.011119
+[2015.07.04-17.56.09:384][762]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.199
+[2015.07.04-17.56.30:177][840]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.57.07:841][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1A4F9260
+[2015.07.04-17.57.16:670][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.04-17.57.16:807][ 48]LogSavePackage: Save=119.948273ms
+[2015.07.04-17.57.16:807][ 48]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/AssaultRifle72EE423C4CCC6A73E1B8F4AA3A80F87E.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.04-17.58.41:240][813]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.04-17.58.41:296][813]LogPlayLevel: [PIE] Compiling AssaultRifle before PIE...
+[2015.07.04-17.58.41:785][813]LogPlayLevel: [PIE] Compiling AK_BP before PIE...
+[2015.07.04-17.58.42:031][813]LogPlayLevel: PIE:  Blueprint regeneration took 792 ms (2 blueprints)
+[2015.07.04-17.58.42:031][813]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:58:42 PM)
+[2015.07.04-17.58.42:032][813]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.58.42:047][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015769s)
+[2015.07.04-17.58.42:048][813]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.58.42:050][813]LogPlayLevel: PIE: World Init took: (0.002222s)
+[2015.07.04-17.58.42:050][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018338s)
+[2015.07.04-17.58.42:139][813]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.58.42:152][813]LogInit: FAudioDevice initialized.
+[2015.07.04-17.58.42:201][813]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.58.42:215][813]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.58.42
+[2015.07.04-17.58.42:216][813]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.58.42:217][813]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.58.42:218][813]LogWorld: Bringing up level for play took: 0.013524
+[2015.07.04-17.58.42:228][813]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.646
+[2015.07.04-17.59.03:709][885]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-17.59.35:026][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D01589C60
+[2015.07.04-17.59.42:673][615]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-17.59.42:673][615]PIE: New page: PIE session: Minimal_Default (Jul 4, 2015, 11:59:42 PM)
+[2015.07.04-17.59.42:674][615]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-17.59.42:693][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018431s)
+[2015.07.04-17.59.42:694][615]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-17.59.42:695][615]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2015.07.04-17.59.42:695][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020725s)
+[2015.07.04-17.59.42:791][615]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-17.59.42:800][615]LogInit: FAudioDevice initialized.
+[2015.07.04-17.59.42:860][615]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-17.59.42:874][615]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-20.59.42
+[2015.07.04-17.59.42:874][615]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.59.42:875][615]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-17.59.42:876][615]LogWorld: Bringing up level for play took: 0.014095
+[2015.07.04-17.59.42:884][615]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.698
+[2015.07.04-17.59.49:189][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1992B380
+[2015.07.04-18.00.45:615][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.00.45:615][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.00.45:615][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.00.45:615][362]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.00.45:615][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.00.45:616][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.00.45:616][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.00.45:616][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.00.45:616][362]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.00.45:616][362]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_11
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.00.45:679][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.00.46:576][362]LogSavePackage: Save=876.490356ms
+[2015.07.04-18.00.46:576][362]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char1B7DB7E94967343FBF4DA1B071B26E3D.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.01.42:811][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.01.43:720][405]LogSavePackage: Save=896.239746ms
+[2015.07.04-18.01.43:720][405]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charDDB6F8FB43C2BCD04DF1158436ABAC4C.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.03.02:639][780]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.03.02:639][780]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.05.30:038][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.05.30:143][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.105
+[2015.07.04-18.05.30:154][698]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Mag/Mag_BP] ([1] browsable assets)...
+[2015.07.04-18.05.30:154][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Mag/Mag_BP]
+[2015.07.04-18.05.30:455][698]LogSavePackage: Save=42.681423ms
+[2015.07.04-18.05.30:455][698]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Mag_BP_Auto1CD227C7143920C0BF39FCAA84AAD1355.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Autosaves/Game/Weapons/Mag/Mag_BP_Auto1.uasset'
+[2015.07.04-18.05.30:457][698]LogFileHelpers: Auto-saving content packages took 0.313
+[2015.07.04-18.08.35:927][948]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.04-18.08.35:951][948]LogPlayLevel: [PIE] Compiling Mag_BP before PIE...
+[2015.07.04-18.08.36:174][948]LogPlayLevel: PIE:  Blueprint regeneration took 247 ms (1 blueprints)
+[2015.07.04-18.08.36:175][948]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:08:36 AM)
+[2015.07.04-18.08.36:175][948]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.08.36:190][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015265s)
+[2015.07.04-18.08.36:191][948]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.08.36:193][948]LogPlayLevel: PIE: World Init took: (0.002285s)
+[2015.07.04-18.08.36:193][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017933s)
+[2015.07.04-18.08.36:280][948]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.08.36:290][948]LogInit: FAudioDevice initialized.
+[2015.07.04-18.08.36:335][948]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.08.36:353][948]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.08.36
+[2015.07.04-18.08.36:354][948]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.08.36:355][948]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.08.36:355][948]LogWorld: Bringing up level for play took: 0.017400
+[2015.07.04-18.08.36:366][948]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.783
+[2015.07.04-18.08.37:691][ 12]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-18.08.44:288][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D015C16C0
+[2015.07.04-18.09.42:949][740]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.09.42:949][740]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.09.43:615][796]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.09.43:615][796]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.09.44:572][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.04-18.09.44:845][849]LogSavePackage: Save=132.464874ms
+[2015.07.04-18.09.44:845][849]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/AssaultRifle3E3E012A4F2E99741EF48482F49E7BC8.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.04-18.10.50:572][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.04-18.10.50:714][166]LogSavePackage: Save=124.180725ms
+[2015.07.04-18.10.50:714][166]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/AssaultRifleBCB4E0694B01FF5607DB4C97F6E84E79.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.04-18.10.51:160][198]BlueprintLog: New page: Compile AssaultRifle
+[2015.07.04-18.10.51:717][198]BlueprintEditorCompileResults: Info [1576.69] Compile of AssaultRifle successful! [in 556 ms]
+[2015.07.04-18.10.52:855][246]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.10.52:856][246]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:10:52 AM)
+[2015.07.04-18.10.52:856][246]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.10.52:875][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017965s)
+[2015.07.04-18.10.52:876][246]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.10.52:877][246]LogPlayLevel: PIE: World Init took: (0.002044s)
+[2015.07.04-18.10.52:877][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020430s)
+[2015.07.04-18.10.52:976][246]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.10.52:985][246]LogInit: FAudioDevice initialized.
+[2015.07.04-18.10.53:033][246]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.10.53:051][246]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.10.53
+[2015.07.04-18.10.53:052][246]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.10.53:057][246]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.10.53:059][246]LogWorld: Bringing up level for play took: 0.023374
+[2015.07.04-18.10.53:068][246]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.515
+[2015.07.04-18.11.10:864][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D130C28E0
+[2015.07.04-18.11.31:957][128]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.11.31:957][128]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:11:31 AM)
+[2015.07.04-18.11.31:958][128]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.11.31:978][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019645s)
+[2015.07.04-18.11.31:979][128]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.11.31:980][128]LogPlayLevel: PIE: World Init took: (0.002090s)
+[2015.07.04-18.11.31:980][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022092s)
+[2015.07.04-18.11.32:075][128]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.11.32:084][128]LogInit: FAudioDevice initialized.
+[2015.07.04-18.11.32:129][128]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.11.32:143][128]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.11.32
+[2015.07.04-18.11.32:143][128]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.11.32:144][128]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.11.32:145][128]LogWorld: Bringing up level for play took: 0.012616
+[2015.07.04-18.11.32:154][128]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.572
+[2015.07.04-18.13.55:650][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D00D48CC0
+[2015.07.04-18.14.11:299][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.04-18.14.14:478][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Mag/Mag_BP" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Mag/Mag_BP.uasset" SILENT=true
+[2015.07.04-18.14.14:594][651]LogSavePackage: Save=16.597950ms
+[2015.07.04-18.14.14:594][651]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Mag_BPDB49A1CC459A1AA99ABC6B953AF7B050.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Mag/Mag_BP.uasset'
+[2015.07.04-18.14.17:987][677]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.07.04-18.14.20:649][815]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.14.20:649][815]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:14:20 AM)
+[2015.07.04-18.14.20:650][815]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.14.20:664][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014255s)
+[2015.07.04-18.14.20:665][815]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.14.20:666][815]LogPlayLevel: PIE: World Init took: (0.001604s)
+[2015.07.04-18.14.20:666][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016177s)
+[2015.07.04-18.14.20:747][815]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.14.20:756][815]LogInit: FAudioDevice initialized.
+[2015.07.04-18.14.20:796][815]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.14.20:808][815]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.14.20
+[2015.07.04-18.14.20:808][815]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.14.20:808][815]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.14.20:809][815]LogWorld: Bringing up level for play took: 0.010605
+[2015.07.04-18.14.20:816][815]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.767
+[2015.07.04-18.15.15:499][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0164B560
+[2015.07.04-18.15.36:004][951]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.15.36:004][951]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:15:36 AM)
+[2015.07.04-18.15.36:005][951]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.15.36:020][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015516s)
+[2015.07.04-18.15.36:021][951]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.15.36:022][951]LogPlayLevel: PIE: World Init took: (0.001883s)
+[2015.07.04-18.15.36:022][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017682s)
+[2015.07.04-18.15.36:101][951]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.15.36:110][951]LogInit: FAudioDevice initialized.
+[2015.07.04-18.15.36:151][951]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.15.36:163][951]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.15.36
+[2015.07.04-18.15.36:163][951]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.15.36:164][951]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.15.36:164][951]LogWorld: Bringing up level for play took: 0.011314
+[2015.07.04-18.15.36:172][951]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.59
+[2015.07.04-18.16.35:633][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1C890A40
+[2015.07.04-18.16.44:092][259]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.16.44:092][259]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:16:44 AM)
+[2015.07.04-18.16.44:093][259]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.16.44:108][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015158s)
+[2015.07.04-18.16.44:109][259]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.16.44:110][259]LogPlayLevel: PIE: World Init took: (0.001735s)
+[2015.07.04-18.16.44:110][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017225s)
+[2015.07.04-18.16.44:185][259]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.16.44:193][259]LogInit: FAudioDevice initialized.
+[2015.07.04-18.16.44:234][259]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.16.44:246][259]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.16.44
+[2015.07.04-18.16.44:246][259]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.16.44:247][259]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.16.44:247][259]LogWorld: Bringing up level for play took: 0.011499
+[2015.07.04-18.16.44:254][259]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.671
+[2015.07.04-18.17.38:389][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1C891580
+[2015.07.04-18.21.32:974][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.04-18.21.34:283][805]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.21.34:283][805]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:21:34 AM)
+[2015.07.04-18.21.34:284][805]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.21.34:300][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016087s)
+[2015.07.04-18.21.34:301][805]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.21.34:302][805]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2015.07.04-18.21.34:302][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018677s)
+[2015.07.04-18.21.34:385][805]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.21.34:394][805]LogInit: FAudioDevice initialized.
+[2015.07.04-18.21.34:443][805]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.21.34:455][805]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.21.34
+[2015.07.04-18.21.34:455][805]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.21.34:455][805]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.21.34:456][805]LogWorld: Bringing up level for play took: 0.011421
+[2015.07.04-18.21.34:464][805]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.881
+[2015.07.04-18.21.48:624][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D17B5C2C0
+[2015.07.04-18.22.49:007][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.075
+[2015.07.04-18.22.49:017][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FP/CharBP/FP_char] ([1] browsable assets)...
+[2015.07.04-18.22.49:017][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/FP/CharBP/FP_char]
+[2015.07.04-18.22.49:017][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Autosaves/Game/FP/CharBP/FP_char_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.07.04-18.22.49:934][223]LogSavePackage: Save=859.932312ms
+[2015.07.04-18.22.49:934][223]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char_Auto25EDF4FE4413FEDA455AC1DA32C10FF86.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/Autosaves/Game/FP/CharBP/FP_char_Auto2.uasset'
+[2015.07.04-18.22.49:936][223]LogFileHelpers: Auto-saving content packages took 0.929
+[2015.07.04-18.23.50:312][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.23.50:312][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.23.50:312][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.23.50:312][634]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.23.50:312][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.23.50:313][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.23.50:313][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.23.50:313][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.23.50:313][634]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.23.50:313][634]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_19
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.24.02:711][425]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4574.EdGraphPin_50535''
+[2015.07.04-18.24.28:694][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.24.29:451][972]LogSavePackage: Save=742.405640ms
+[2015.07.04-18.24.29:451][972]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charD4B9FC6540F700E16945D99038F15569.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.24.29:832][996]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.24.30:939][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.24.31:105][996]BlueprintEditorCompileResults: Info [2396.07] Compile of FP_char successful! [in 1,272 ms]
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.24.31:107][996]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.24.32:963][ 87]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.24.32:963][ 87]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:24:32 AM)
+[2015.07.04-18.24.32:964][ 87]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.24.32:977][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013083s)
+[2015.07.04-18.24.32:978][ 87]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.24.32:979][ 87]LogPlayLevel: PIE: World Init took: (0.002023s)
+[2015.07.04-18.24.32:979][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015452s)
+[2015.07.04-18.24.32:979][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.24.33:068][ 87]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.24.33:077][ 87]LogInit: FAudioDevice initialized.
+[2015.07.04-18.24.33:119][ 87]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.24.33:131][ 87]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.24.33
+[2015.07.04-18.24.33:131][ 87]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.24.33:131][ 87]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.24.33:132][ 87]LogWorld: Bringing up level for play took: 0.010894
+[2015.07.04-18.24.33:140][ 87]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.443
+[2015.07.04-18.24.46:545][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D11A15260
+[2015.07.04-18.25.03:854][235]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.25.04:909][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.25.05:082][235]BlueprintEditorCompileResults: Info [2430.05] Compile of FP_char successful! [in 1,228 ms]
+[2015.07.04-18.25.05:230][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.25.06:005][235]LogSavePackage: Save=758.351868ms
+[2015.07.04-18.25.06:006][235]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char8A1B201444C0E7793D33E08078136B5A.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.25.07:336][292]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.25.07:336][292]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:25:07 AM)
+[2015.07.04-18.25.07:336][292]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.25.07:350][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013685s)
+[2015.07.04-18.25.07:351][292]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.25.07:352][292]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2015.07.04-18.25.07:352][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015708s)
+[2015.07.04-18.25.07:352][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.25.07:447][292]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.25.07:455][292]LogInit: FAudioDevice initialized.
+[2015.07.04-18.25.07:500][292]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.25.07:512][292]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.25.07
+[2015.07.04-18.25.07:512][292]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.25.07:513][292]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.25.07:514][292]LogWorld: Bringing up level for play took: 0.010767
+[2015.07.04-18.25.07:522][292]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.061
+[2015.07.04-18.25.48:679][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D049ADB20
+[2015.07.04-18.26.20:216][906]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.26.21:297][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.26.21:467][906]BlueprintEditorCompileResults: Info [2506.44] Compile of FP_char successful! [in 1,250 ms]
+[2015.07.04-18.26.21:623][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.26.22:423][906]LogSavePackage: Save=786.094543ms
+[2015.07.04-18.26.22:424][906]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char76D500EC4DC95BCA7BDD5DA41C866A3D.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.26.23:259][955]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.26.23:259][955]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:26:23 AM)
+[2015.07.04-18.26.23:259][955]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.26.23:272][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013033s)
+[2015.07.04-18.26.23:273][955]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.26.23:274][955]LogPlayLevel: PIE: World Init took: (0.001648s)
+[2015.07.04-18.26.23:274][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014950s)
+[2015.07.04-18.26.23:274][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.26.23:359][955]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.26.23:368][955]LogInit: FAudioDevice initialized.
+[2015.07.04-18.26.23:413][955]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.26.23:424][955]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.26.23
+[2015.07.04-18.26.23:424][955]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.26.23:425][955]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.26.23:426][955]LogWorld: Bringing up level for play took: 0.010964
+[2015.07.04-18.26.23:436][955]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.147
+[2015.07.04-18.26.36:055][ 42]Cmd: LevelEditor.ToggleImmersive
+[2015.07.04-18.26.38:140][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1DF33BA0
+[2015.07.04-18.27.17:825][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.27.18:578][830]LogSavePackage: Save=738.715393ms
+[2015.07.04-18.27.18:579][830]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char8173962946A95B534275E087FE54373A.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.27.18:810][847]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.27.19:893][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.27.20:062][847]BlueprintEditorCompileResults: Info [2565.03] Compile of FP_char successful! [in 1,251 ms]
+[2015.07.04-18.28.00:319][836]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.28.00:319][836]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:28:00 AM)
+[2015.07.04-18.28.00:320][836]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.28.00:335][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015642s)
+[2015.07.04-18.28.00:336][836]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.28.00:338][836]LogPlayLevel: PIE: World Init took: (0.002297s)
+[2015.07.04-18.28.00:338][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018235s)
+[2015.07.04-18.28.00:338][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.28.00:431][836]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.28.00:440][836]LogInit: FAudioDevice initialized.
+[2015.07.04-18.28.00:482][836]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.28.00:494][836]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.28.00
+[2015.07.04-18.28.00:494][836]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.28.00:495][836]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.28.00:495][836]LogWorld: Bringing up level for play took: 0.010783
+[2015.07.04-18.28.00:504][836]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.921
+[2015.07.04-18.28.41:493][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1523AB60
+[2015.07.04-18.29.16:429][288]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.29.17:520][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.29.17:696][288]BlueprintEditorCompileResults: Info [2682.67] Compile of FP_char successful! [in 1,266 ms]
+[2015.07.04-18.29.17:855][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.29.18:638][288]LogSavePackage: Save=762.267883ms
+[2015.07.04-18.29.18:638][288]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charED99D39F4A78988FBFCED5BBD88A3F66.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.29.19:653][333]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.29.19:653][333]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:29:19 AM)
+[2015.07.04-18.29.19:654][333]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.29.19:669][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015446s)
+[2015.07.04-18.29.19:670][333]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.29.19:671][333]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2015.07.04-18.29.19:671][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017759s)
+[2015.07.04-18.29.19:671][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.29.19:757][333]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.29.19:766][333]LogInit: FAudioDevice initialized.
+[2015.07.04-18.29.19:812][333]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.29.19:823][333]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.29.19
+[2015.07.04-18.29.19:824][333]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.29.19:824][333]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.29.19:825][333]LogWorld: Bringing up level for play took: 0.010182
+[2015.07.04-18.29.19:832][333]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.25
+[2015.07.04-18.30.00:907][793]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1DF31F80
+[2015.07.04-18.30.04:345][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.30.05:095][985]LogSavePackage: Save=734.811401ms
+[2015.07.04-18.30.05:095][985]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char24721B6141CCD200340255A68BCD2337.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.33.42:760][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.33.43:555][843]LogSavePackage: Save=772.035034ms
+[2015.07.04-18.33.43:555][843]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charA5DF47D345E8CF614192C2B844918424.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.36.58:377][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB_C' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:377][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:EventGraph.K2Node_Event_662' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:377][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:EventGraph.K2Node_CallFunction_6352' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:377][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_Root_51' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:377][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateEntryNode_0' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateNode_1.Idle.AnimGraphNode_StateResult_120' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateNode_3.Move.AnimGraphNode_StateResult_121' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_150' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateNode_8.Aim.AnimGraphNode_StateResult_123' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_152' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateTransitionNode_17.Transition.AnimGraphNode_TransitionResult_270' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_288.GunState.AnimStateTransitionNode_19.Transition.AnimGraphNode_TransitionResult_342' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.akHands_AB:AnimGraph.AnimGraphNode_StateMachine_25.GunState_1.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_2516' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:378][324]LogMetaData: Removing '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.SKEL_akHands_AB_C' ref from Metadata '/Game/Weapons/Auto_weapon/AK/AnimBP/akHands_BP.PackageMetaData'
+[2015.07.04-18.36.58:920][324]LogSavePackage: Save=427.085632ms
+[2015.07.04-18.36.58:921][324]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/akHands_AB8CC0D2EE4A9F18BE6A8B6587669F1870.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.uasset'
+[2015.07.04-18.36.59:290][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.37.00:078][324]LogSavePackage: Save=765.846313ms
+[2015.07.04-18.37.00:078][324]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charC605376F4CA6925D46FE34869A22190A.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.37.01:270][339]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.07.04-18.37.01:459][339]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.04-18.37.41:684][ 31]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.37.41:684][ 31]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:37:41 AM)
+[2015.07.04-18.37.41:685][ 31]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.37.41:701][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015455s)
+[2015.07.04-18.37.41:702][ 31]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.37.41:703][ 31]LogPlayLevel: PIE: World Init took: (0.001910s)
+[2015.07.04-18.37.41:703][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017714s)
+[2015.07.04-18.37.41:703][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.37.41:788][ 31]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.37.41:797][ 31]LogInit: FAudioDevice initialized.
+[2015.07.04-18.37.41:839][ 31]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.37.41:851][ 31]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.37.41
+[2015.07.04-18.37.41:851][ 31]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.37.41:852][ 31]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.37.41:852][ 31]LogWorld: Bringing up level for play took: 0.011254
+[2015.07.04-18.37.41:861][ 31]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.278
+[2015.07.04-18.38.22:279][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D25C7DA80
+[2015.07.04-18.38.23:665][337]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.38.23:665][337]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:38:23 AM)
+[2015.07.04-18.38.23:666][337]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.38.23:680][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014273s)
+[2015.07.04-18.38.23:681][337]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.38.23:682][337]LogPlayLevel: PIE: World Init took: (0.002265s)
+[2015.07.04-18.38.23:683][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016903s)
+[2015.07.04-18.38.23:760][337]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.38.23:768][337]LogInit: FAudioDevice initialized.
+[2015.07.04-18.38.23:812][337]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.38.23:823][337]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.38.23
+[2015.07.04-18.38.23:824][337]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.38.23:824][337]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.38.23:825][337]LogWorld: Bringing up level for play took: 0.010961
+[2015.07.04-18.38.23:832][337]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.25
+[2015.07.04-18.38.34:036][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D04E42020
+[2015.07.04-18.38.44:371][792]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.38.44:372][792]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:38:44 AM)
+[2015.07.04-18.38.44:372][792]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.38.44:385][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013096s)
+[2015.07.04-18.38.44:386][792]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.38.44:387][792]LogPlayLevel: PIE: World Init took: (0.001477s)
+[2015.07.04-18.38.44:387][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014833s)
+[2015.07.04-18.38.44:470][792]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.38.44:478][792]LogInit: FAudioDevice initialized.
+[2015.07.04-18.38.44:522][792]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.38.44:534][792]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.38.44
+[2015.07.04-18.38.44:534][792]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.38.44:535][792]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.38.44:536][792]LogWorld: Bringing up level for play took: 0.011757
+[2015.07.04-18.38.44:543][792]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.96
+[2015.07.04-18.38.54:562][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D10588900
+[2015.07.04-18.39.43:051][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.39.43:051][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.39.43:051][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.39.43:051][939]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.39.43:051][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.39.43:052][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.39.43:052][939]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.40.16:152][149]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_250.EdGraphPin_50559''
+[2015.07.04-18.40.16:153][149]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_250.EdGraphPin_50557''
+[2015.07.04-18.40.20:777][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.40.21:603][424]LogSavePackage: Save=811.420227ms
+[2015.07.04-18.40.21:603][424]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char0A737422427721D7558465976B5695DF.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.40.23:526][543]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.04-18.40.23:565][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.40.23:611][543]LogPlayLevel: [PIE] Compiling FP_char before PIE...
+[2015.07.04-18.40.24:738][543]LogPlayLevel: [PIE] Compiling FP_AB before PIE...
+[2015.07.04-18.40.25:704][543]LogPlayLevel: [PIE] Compiling akHands_AB before PIE...
+[2015.07.04-18.40.26:239][543]LogPlayLevel: PIE:  Blueprint regeneration took 2713 ms (3 blueprints)
+[2015.07.04-18.40.26:240][543]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:40:26 AM)
+[2015.07.04-18.40.26:240][543]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.40.26:256][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015711s)
+[2015.07.04-18.40.26:257][543]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.40.26:258][543]LogPlayLevel: PIE: World Init took: (0.002280s)
+[2015.07.04-18.40.26:259][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018339s)
+[2015.07.04-18.40.26:332][543]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.40.26:340][543]LogInit: FAudioDevice initialized.
+[2015.07.04-18.40.26:382][543]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.40.26:393][543]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.40.26
+[2015.07.04-18.40.26:394][543]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.40.26:394][543]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.40.26:395][543]LogWorld: Bringing up level for play took: 0.010727
+[2015.07.04-18.40.26:404][543]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.821
+[2015.07.04-18.40.26:423][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.40.26:423][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.40.26:423][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.40.26:423][544]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.40.26:423][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.40.26:424][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.40.26:424][544]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.40.54:931][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.40.55:043][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1152E020
+[2015.07.04-18.42.40:993][811]LogSavePackage: Save=346.108612ms
+[2015.07.04-18.42.40:993][811]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/akHands_AB898D32D94145075EB83B72A5A4342985.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.uasset'
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.04-18.42.42:640][918]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.04-18.42.42:668][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.42.43:445][918]LogSavePackage: Save=757.046143ms
+[2015.07.04-18.42.43:446][918]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charB4AE7C8545BAF0EBB9A039B2DB2066F8.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.43.52:971][844]LogSavePackage: Save=361.786285ms
+[2015.07.04-18.43.52:971][844]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/akHands_AB9D024E8B45C07DE49CC6AF8B8DD1CF00.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.uasset'
+[2015.07.04-18.43.54:018][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.44.01:840][486]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.44.01:841][486]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:44:01 AM)
+[2015.07.04-18.44.01:841][486]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.44.01:854][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012923s)
+[2015.07.04-18.44.01:855][486]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.44.01:856][486]LogPlayLevel: PIE: World Init took: (0.001987s)
+[2015.07.04-18.44.01:857][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015349s)
+[2015.07.04-18.44.01:937][486]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.44.01:947][486]LogInit: FAudioDevice initialized.
+[2015.07.04-18.44.01:995][486]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.44.02:007][486]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.44.02
+[2015.07.04-18.44.02:007][486]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.44.02:007][486]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.44.02:008][486]LogWorld: Bringing up level for play took: 0.011194
+[2015.07.04-18.44.02:016][486]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.434
+[2015.07.04-18.44.16:120][557]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1CA8CA40
+[2015.07.04-18.45.03:093][154]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.45.04:591][154]BlueprintEditorCompileResults: Info [3629.56] Compile of FP_char successful! [in 1,498 ms]
+[2015.07.04-18.45.05:105][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.45.06:032][169]LogSavePackage: Save=911.048462ms
+[2015.07.04-18.45.06:045][169]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_char597372934216EEECBA8ABBB6FECE71E0.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.45.07:289][236]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.45.07:290][236]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:45:07 AM)
+[2015.07.04-18.45.07:290][236]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.45.07:307][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016213s)
+[2015.07.04-18.45.07:308][236]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.45.07:309][236]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2015.07.04-18.45.07:309][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018327s)
+[2015.07.04-18.45.07:309][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.45.07:406][236]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.45.07:415][236]LogInit: FAudioDevice initialized.
+[2015.07.04-18.45.07:465][236]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.45.07:479][236]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.45.07
+[2015.07.04-18.45.07:479][236]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.45.07:479][236]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.45.07:480][236]LogWorld: Bringing up level for play took: 0.011972
+[2015.07.04-18.45.07:489][236]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.093
+[2015.07.04-18.45.10:791][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D2520F600
+[2015.07.04-18.45.20:835][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP/CharBP/FP_char" FILE="../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset" SILENT=true
+[2015.07.04-18.45.21:595][148]LogSavePackage: Save=745.997742ms
+[2015.07.04-18.45.21:596][148]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/FP_charE7D6671542BA1D840451ECB4785BA334.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/FP/CharBP/FP_char.uasset'
+[2015.07.04-18.45.21:740][158]BlueprintLog: New page: Compile FP_char
+[2015.07.04-18.45.22:982][158]BlueprintEditorCompileResults: Info [3647.95] Compile of FP_char successful! [in 1,242 ms]
+[2015.07.04-18.45.24:147][224]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.04-18.45.24:147][224]PIE: New page: PIE session: Minimal_Default (Jul 5, 2015, 12:45:24 AM)
+[2015.07.04-18.45.24:148][224]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.04-18.45.24:161][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012990s)
+[2015.07.04-18.45.24:162][224]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.04-18.45.24:163][224]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2015.07.04-18.45.24:163][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015204s)
+[2015.07.04-18.45.24:163][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.04-18.45.24:250][224]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.04-18.45.24:258][224]LogInit: FAudioDevice initialized.
+[2015.07.04-18.45.24:302][224]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.04-18.45.24:314][224]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.04-21.45.24
+[2015.07.04-18.45.24:314][224]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.45.24:314][224]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-18.45.24:315][224]LogWorld: Bringing up level for play took: 0.011060
+[2015.07.04-18.45.24:323][224]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.741
+[2015.07.04-18.45.27:060][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D1C4CD940
+[2015.07.04-18.45.29:851][565]LogSavePackage: Save=438.008575ms
+[2015.07.04-18.45.29:852][565]LogSavePackage: Moving '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Saved/akHands_AB5386CCCD4C3B4A10C21671B7199C6C09.tmp' to '../../../../../Projects/ActualProjects/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AnimBP/akHands_AB.uasset'
+[2015.07.04-18.46.06:726][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D23D95620
+[2015.07.04-18.46.06:729][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D25AD4B80
+[2015.07.04-18.46.06:758][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D19DCD8A0
+[2015.07.04-18.46.08:010][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.04-18.46.08:065][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.04-18.46.08:113][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.04-18.46.08:158][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.04-18.46.08:592][887]Cmd: QUIT_EDITOR
+[2015.07.04-18.46.09:450][887]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-18.46.09:667][887]LogExit: Preparing to exit.
+[2015.07.04-18.46.10:246][887]LogExit: Editor shut down
+[2015.07.04-18.46.10:246][887]LogExit: Transaction tracking system shut down
+[2015.07.04-18.46.10:249][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0739F4C0
+[2015.07.04-18.46.10:249][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0739F9C0
+[2015.07.04-18.46.10:255][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D199CFF60
+[2015.07.04-18.46.10:257][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D185132E0
+[2015.07.04-18.46.10:258][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D070F0400
+[2015.07.04-18.46.10:258][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D09C73420
+[2015.07.04-18.46.10:259][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0CB9D260
+[2015.07.04-18.46.10:259][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0D5A8860
+[2015.07.04-18.46.10:259][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0ED57920
+[2015.07.04-18.46.10:259][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0ED57880
+[2015.07.04-18.46.10:260][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0ED57740
+[2015.07.04-18.46.10:260][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0D46F880
+[2015.07.04-18.46.10:260][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D11770900
+[2015.07.04-18.46.10:261][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D199CC2C0
+[2015.07.04-18.46.10:261][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D71400860
+[2015.07.04-18.46.10:527][887]LogExit: Object subsystem successfully closed.
+[2015.07.04-18.46.11:039][887]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.04-18.46.11:039][887]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.04-18.46.11:039][887]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.04-18.46.11:039][887]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.04-18.46.11:039][887]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.04-18.46.11:042][887]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.04-18.46.11:042][887]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.04-18.46.11:043][887]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.04-18.46.11:044][887]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.04-18.46.11:044][887]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.04-18.46.11:044][887]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.04-18.46.11:044][887]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.04-18.46.11:215][887]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.04-18.46.11:216][887]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.04-18.46.11:217][887]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.04-18.46.11:218][887]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.04-18.46.11:756][887]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.04-18.46.11:756][887]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.04-18.46.11:756][887]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.04-18.46.11:757][887]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.04-18.46.11:931][887]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.04-18.46.11:953][887]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.04-18.46.11:954][887]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.04-18.46.11:956][887]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.04-18.46.11:956][887]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.04-18.46.11:956][887]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.04-18.46.11:958][887]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.04-18.46.11:959][887]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.04-18.46.11:959][887]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.04-18.46.12:060][887]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.04-18.46.12:060][887]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.04-18.46.12:069][887]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.04-18.46.12:069][887]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.04-18.46.12:070][887]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.04-18.46.12:075][887]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.04-18.46.12:094][887]LogDerivedDataCache: Shutdown
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.04-18.46.12:095][887]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.04-18.46.12:096][887]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.04-18.46.12:096][887]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.04-18.46.12:096][887]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.04-18.46.12:096][887]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.04-18.46.12:096][887]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.04-18.46.12:106][887]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.04-18.46.12:107][887]LogExit: Exiting.
+[2015.07.04-18.46.12:114][887]Log file closed, 07/04/15 21:46:12
