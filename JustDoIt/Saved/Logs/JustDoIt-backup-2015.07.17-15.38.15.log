@@ -1,0 +1,1067 @@
+﻿[2015.07.17-10.51.20:241][  0]Log file open, 07/17/15 13:51:20
+[2015.07.17-10.51.20:241][  0]LogInit:Display: Running engine for game: JustDoIt
+[2015.07.17-10.51.20:241][  0]LogInit:Display: RandInit(1869047442) SRandInit(1869047443).
+[2015.07.17-10.51.20:241][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.17-10.51.20:242][  0]LogStats: Stats thread started
+[2015.07.17-10.51.20:242][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.17-10.51.20:242][  0]LogInit: API Version: 2579680
+[2015.07.17-10.51.20:242][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.17-10.51.20:242][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.17-10.51.20:242][  0]LogInit: Build Configuration: Development
+[2015.07.17-10.51.20:242][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.17-10.51.20:242][  0]LogInit: Command line:  
+[2015.07.17-10.51.20:242][  0]LogInit: Base directory: F:/GameDevelopment/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.17-10.51.20:242][  0]LogInit: Rocket: 1
+[2015.07.17-10.51.20:258][  0]LogInit: Using libcurl 7.41.0
+[2015.07.17-10.51.20:258][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.17-10.51.20:258][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.17-10.51.20:258][  0]LogInit:  - other features:
+[2015.07.17-10.51.20:258][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.17-10.51.20:258][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.17-10.51.20:258][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.17-10.51.20:258][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.17-10.51.20:258][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.17-10.51.20:258][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.17-10.51.20:258][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.17-10.51.20:258][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.17-10.51.20:258][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.17-10.51.20:258][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.17-10.51.20:274][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.17-10.51.20:291][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.17-10.51.20:301][  0]LogInit: Object subsystem initialized
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.17-10.51.20:302][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/GameDevelopment/Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.17-10.51.20:303][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.17-10.51.20:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.17-10.51.20:315][  0]LogInit: Computer: NIKPC
+[2015.07.17-10.51.20:315][  0]LogInit: User: Nikita
+[2015.07.17-10.51.20:315][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.17-10.51.20:315][  0]LogInit: High frequency timer resolution =1.753827 MHz
+[2015.07.17-10.51.20:315][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.17-10.51.20:315][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.17-10.51.20:315][  0]LogMemory: Process Physical Memory: 49.49 MB used, 49.49 MB peak
+[2015.07.17-10.51.20:315][  0]LogMemory: Process Virtual Memory: 22.52 MB used, 22.52 MB peak
+[2015.07.17-10.51.20:315][  0]LogMemory: Physical Memory: 3873.29 MB used, 8077.30 MB total
+[2015.07.17-10.51.20:315][  0]LogMemory: Virtual Memory: 291.25 MB used, 134217728.00 MB total
+[2015.07.17-10.51.20:361][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.17-10.51.20:673][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (F:/GameDevelopment/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (F:/GameDevelopment/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.17-10.51.21:304][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.07.17-10.51.21:304][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.07.17-10.51.21:316][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2015.07.17-10.51.21:316][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.17-10.51.21:317][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.17-10.51.21:317][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.17-10.51.21:317][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.17-10.51.21:322][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.21:322][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.17-10.51.21:322][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.17-10.51.21:335][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.17-10.51.21:354][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.17-10.51.22:692][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.17-10.51.22:710][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.17-10.51.22:728][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.17-10.51.22:746][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.17-10.51.22:766][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.17-10.51.22:781][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.17-10.51.22:796][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.17-10.51.22:812][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.17-10.51.22:827][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.17-10.51.22:843][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.17-10.51.22:859][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.17-10.51.22:875][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.17-10.51.22:932][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.17-10.51.22:947][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.17-10.51.22:962][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.17-10.51.22:981][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.17-10.51.22:981][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.17-10.51.23:264][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.17-10.51.24:291][  0]LogDerivedDataCache: Loaded boot cache 1.03s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.17-10.51.24:291][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.17-10.51.24:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.17-10.51.24:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.17-10.51.24:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.17-10.51.24:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.17-10.51.24:530][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.17-10.51.24:542][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.17-10.51.24:862][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.17-10.51.24:985][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.17-10.51.24:986][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.17-10.51.25:024][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.17-10.51.25:024][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.17-10.51.25:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.17-10.51.26:913][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.17-10.51.27:378][  0]SourceControl: Info Source control is disabled
+[2015.07.17-10.51.27:394][  0]SourceControl: Info Source control is disabled
+[2015.07.17-10.51.27:406][  0]SourceControl: Info Source control is disabled
+[2015.07.17-10.51.27:420][  0]SourceControl: Info Source control is disabled
+[2015.07.17-10.51.27:804][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.17-10.51.27:805][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.17-10.51.27:911][  0]LogEngine: Initializing Engine...
+[2015.07.17-10.51.27:914][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.17-10.51.27:916][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.17-10.51.28:200][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.17-10.51.28:209][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-10.51.28:220][  0]LogInit: FAudioDevice initialized.
+[2015.07.17-10.51.28:254][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.17-10.51.28:260][  0]LogInit: Texture streaming: Disabled
+[2015.07.17-10.51.28:291][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.17-10.51.28:291][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.17-10.51.28:291][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 412554c84dce0172ced9c993479e3b4a|211b3dab690f4096afd4dd007df595dd|a7c4cc10-e2dd-4cbc-a537-941298a0deb0
+[2015.07.17-10.51.28:291][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.17-10.51.28:327][  0]LogInit: Transaction tracking system initialized
+[2015.07.17-10.51.28:546][  0]BlueprintLog: New page: Editor Load
+[2015.07.17-10.51.28:606][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.07.17-10.51.28:606][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.17-10.51.29:910][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.17-10.51.29:910][  0]LogConsoleResponse:Display: 
+[2015.07.17-10.51.30:113][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.17-10.51.30:464][  0]SourceControl: Info Source control is disabled
+[2015.07.17-10.51.30:464][  0]Cmd: MAP LOAD FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.17-10.51.30:464][  0]LightingResults: New page: Lighting Build
+[2015.07.17-10.51.30:487][  0]MapCheck: New page: Map Check
+[2015.07.17-10.51.30:487][  0]LightingResults: New page: Lighting Build
+[2015.07.17-10.51.30:516][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004871FE4B80
+[2015.07.17-10.51.39:699][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-10.51.39:713][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.17-10.51.39:743][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.17-10.51.39:866][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.92ms to complete.
+[2015.07.17-10.51.39:866][  0]LogFileHelpers: Loading map 'Minimal_Default' took 9.403
+[2015.07.17-10.51.39:967][  0]LogCollectionManager: Loaded 0 collections in 0.002895 seconds
+[2015.07.17-10.51.39:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 1792 classes and 301 folders.
+[2015.07.17-10.51.40:052][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.07.17-10.51.40:093][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.07.17-10.51.40:176][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.07.17-10.51.40:326][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.17-10.51.40:327][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.40:332][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.17-10.51.40:356][  0]LogLoad: Full Startup: 22.38 seconds (BP compile: 4.09 seconds)
+[2015.07.17-10.51.40:365][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.17-10.51.40:441][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.17-10.51.40:479][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.07.17-10.51.40:675][  0]LogRenderer: Reallocating scene render targets to support 928x592 (Frame:2).
+[2015.07.17-10.51.41:045][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.51.41:045][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.51.41:045][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.51.41:045][  1]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.51.41:045][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.51.41:046][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.51.41:046][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.51.41:046][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.51.41:046][  1]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.51.41:046][  1]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_0
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.51.41:487][  6]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.42:172][ 18]LogAssetRegistry: Asset discovery search completed in 13.5775 seconds
+[2015.07.17-10.51.43:556][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.43:697][ 99]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.17-10.51.43:785][ 99]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.17-10.51.45:478][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.45:495][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.45:898][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.46:384][ 99]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.07.17-10.51.46:693][ 99]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.07.17-10.51.46:698][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.51.46:894][ 99]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_2
+[2015.07.17-10.51.46:894][ 99]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_2
+[2015.07.17-10.51.46:938][ 99]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_2
+[2015.07.17-10.51.46:944][ 99]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2015.07.17-10.51.46:944][ 99]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_2
+[2015.07.17-10.51.46:975][ 99]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.17-10.52.48:618][286]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.52.49:212][302]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.52.53:831][576]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.17-10.52.53:833][576]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 4:52:53 PM)
+[2015.07.17-10.52.53:834][576]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-10.52.53:847][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013051s)
+[2015.07.17-10.52.53:848][576]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-10.52.53:849][576]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2015.07.17-10.52.53:849][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015344s)
+[2015.07.17-10.52.53:849][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-10.52.53:986][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480D9D54E0
+[2015.07.17-10.52.54:315][576]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-10.52.54:323][576]LogInit: FAudioDevice initialized.
+[2015.07.17-10.52.54:399][576]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-10.52.54:493][576]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-13.52.54
+[2015.07.17-10.52.54:493][576]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-10.52.54:494][576]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-10.52.54:494][576]LogWorld: Bringing up level for play took: 0.093734
+[2015.07.17-10.52.54:501][576]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.602
+[2015.07.17-10.52.55:108][599]Cmd: LevelEditor.ToggleImmersive
+[2015.07.17-10.52.55:263][600]LogRenderer: Reallocating scene render targets to support 1112x648 (Frame:226).
+[2015.07.17-10.52.55:347][601]LogRenderer: Reallocating scene render targets to support 1368x728 (Frame:228).
+[2015.07.17-10.56.48:924][661]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480AC5D620
+[2015.07.17-10.56.51:019][764]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.16:356][314]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.22:185][791]BlueprintLog: New page: Compile Weapon
+[2015.07.17-10.57.23:057][791]BlueprintEditorCompileResults: Info [0365.08] Compile of Weapon successful! [in 870 ms]
+[2015.07.17-10.57.23:066][791]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.23:110][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Weapon.uasset" SILENT=true
+[2015.07.17-10.57.23:331][791]LogSavePackage: Save=67.694244ms
+[2015.07.17-10.57.23:331][791]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/WeaponBDF59C4F4CE53B96103B608187EBB0EF.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Weapon.uasset'
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.57.23:338][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.57.23:339][791]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.57.23:339][791]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.57.33:018][467]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.38:155][865]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.45:695][548]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.46:046][562]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.51:311][966]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.57.52:513][ 67]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.04:507][233]BlueprintLog: New page: Compile AssaultRifle
+[2015.07.17-10.58.04:654][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-10.58.05:119][233]BlueprintEditorCompileResults: Info [0407.15] Compile of AssaultRifle successful! [in 612 ms]
+[2015.07.17-10.58.05:121][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.58.05:121][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.58.05:122][233]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.58.05:698][285]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.05:726][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-10.58.06:150][285]LogSavePackage: Save=174.928879ms
+[2015.07.17-10.58.06:150][285]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifle98393A634A58C89AC3267AA977633EEF.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-10.58.10:564][649]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4218.EdGraphPin_50213''
+[2015.07.17-10.58.12:613][830]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.13:815][936]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.31:267][467]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.34:916][781]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.35:227][803]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.41:404][367]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.43:153][542]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Weapons/Auto_weapon/AssaultRifle.AssaultRifle:EventGraph.K2Node_CallFunction_4218 or K2Node_CallFunction /Game/Weapons/Auto_weapon/AK/AK_BP.AK_BP:UserConstructionScript.K2Node_CallFunction_4218
+[2015.07.17-10.58.43:153][542]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4218.EdGraphPin_50213''
+[2015.07.17-10.58.43:154][542]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Weapons/Auto_weapon/AssaultRifle.AssaultRifle:EventGraph.K2Node_SpawnActorFromClass_36.EdGraphPin_30429) from referencer (EdGraphPin /Game/Weapons/Auto_weapon/AK/AK_BP.AK_BP:UserConstructionScript.K2Node_CallFunction_4218.EdGraphPin_50212).  Import failed...
+[2015.07.17-10.58.43:154][542]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_36.EdGraphPin_30429''
+[2015.07.17-10.58.43:154][542]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Weapons/Auto_weapon/AssaultRifle.AssaultRifle:EventGraph.K2Node_CustomEvent_4673.EdGraphPin_4944) from referencer (EdGraphPin /Game/Weapons/Auto_weapon/AK/AK_BP.AK_BP:UserConstructionScript.K2Node_CallFunction_4218.EdGraphPin_50211).  Import failed...
+[2015.07.17-10.58.43:154][542]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_4673.EdGraphPin_4944''
+[2015.07.17-10.58.45:433][800]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.45:693][822]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.58.59:734][ 11]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.00:213][ 46]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.04:121][393]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.04:557][440]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.10:794][964]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.11:587][ 35]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.12:884][160]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.14:278][296]BlueprintLog: New page: Compile AK_BP
+[2015.07.17-10.59.14:478][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-10.59.14:589][296]BlueprintEditorCompileResults: Info [0476.62] Compile of AK_BP successful! [in 311 ms]
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.14:591][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.14:592][296]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.14:592][296]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_5
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.59.14:872][320]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.14:888][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AK/AK_BP" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AK_BP.uasset" SILENT=true
+[2015.07.17-10.59.15:018][320]LogSavePackage: Save=49.481506ms
+[2015.07.17-10.59.15:018][320]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AK_BP91DD32AA4FB9639CB4B4E7BBDACC497A.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AK_BP.uasset'
+[2015.07.17-10.59.16:172][402]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.17-10.59.16:194][402]LogPlayLevel: [PIE] Compiling Weapon before PIE...
+[2015.07.17-10.59.16:411][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-10.59.16:971][402]LogPlayLevel: [PIE] Compiling AssaultRifle before PIE...
+[2015.07.17-10.59.17:546][402]LogPlayLevel: [PIE] Compiling FP_char before PIE...
+[2015.07.17-10.59.18:611][402]LogPlayLevel: [PIE] Compiling AK_BP before PIE...
+[2015.07.17-10.59.18:766][402]LogPlayLevel: [PIE] Compiling m1911_BP before PIE...
+[2015.07.17-10.59.18:918][402]LogPlayLevel: [PIE] Compiling FP_AB before PIE...
+[2015.07.17-10.59.19:742][402]LogPlayLevel: [PIE] Compiling m1911Hands_AB before PIE...
+[2015.07.17-10.59.20:010][402]LogPlayLevel: [PIE] Compiling akHands_AB before PIE...
+[2015.07.17-10.59.20:422][402]LogPlayLevel: PIE:  Blueprint regeneration took 4249 ms (8 blueprints)
+[2015.07.17-10.59.20:422][402]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 4:59:20 PM)
+[2015.07.17-10.59.20:423][402]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-10.59.20:436][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012852s)
+[2015.07.17-10.59.20:437][402]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-10.59.20:438][402]LogPlayLevel: PIE: World Init took: (0.002045s)
+[2015.07.17-10.59.20:438][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015215s)
+[2015.07.17-10.59.20:507][402]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-10.59.20:516][402]LogInit: FAudioDevice initialized.
+[2015.07.17-10.59.20:554][402]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-10.59.20:563][402]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-13.59.20
+[2015.07.17-10.59.20:563][402]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-10.59.20:564][402]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-10.59.20:565][402]LogWorld: Bringing up level for play took: 0.009097
+[2015.07.17-10.59.20:572][402]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 4.672
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.20:591][403]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_6
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.59.47:632][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-10.59.47:719][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000487B049D00
+[2015.07.17-10.59.53:191][699]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.54:971][877]BlueprintLog: New page: Compile AssaultRifle
+[2015.07.17-10.59.55:618][877]BlueprintEditorCompileResults: Info [0517.64] Compile of AssaultRifle successful! [in 646 ms]
+[2015.07.17-10.59.55:644][877]LogD3D11RHI: InitD3DDevice
+[2015.07.17-10.59.55:674][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-10.59.55:860][877]LogSavePackage: Save=162.112915ms
+[2015.07.17-10.59.55:860][877]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifle73F32F744A98F0B92677BB8E58AB250F.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-10.59.55:867][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.55:867][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.55:867][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.55:867][877]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.55:867][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-10.59.55:868][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-10.59.55:868][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-10.59.55:868][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-10.59.55:868][877]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-10.59.55:868][877]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_7
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-11.00.00:300][328]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.01:441][429]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.01:688][447]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.07:455][947]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.09:129][ 83]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.13:291][473]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.15:921][688]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.17:205][792]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.18:694][916]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.27:451][666]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.32:181][168]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.34:540][418]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.34:674][429]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.35:093][464]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.35:869][537]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.00.35:942][537]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.00.35:974][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Weapon.uasset" SILENT=true
+[2015.07.17-11.00.36:069][537]LogSavePackage: Save=71.411263ms
+[2015.07.17-11.00.36:069][537]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/WeaponEC78C767455918C5BB832FB1D7D6804B.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Weapon.uasset'
+[2015.07.17-11.00.36:534][588]BlueprintLog: New page: Compile Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:035][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:092][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:340][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:340][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:340][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:341][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:342][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:342][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:342][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:343][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.00.37:361][588]BlueprintEditorCompileResults: Info [0559.39] Compile of Weapon successful! [in 826 ms]
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-11.00.37:363][588]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_8
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-11.00.38:649][677]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.17-11.00.38:649][677]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 5:00:38 PM)
+[2015.07.17-11.00.38:650][677]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-11.00.38:667][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016661s)
+[2015.07.17-11.00.38:668][677]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-11.00.38:669][677]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2015.07.17-11.00.38:669][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018960s)
+[2015.07.17-11.00.38:669][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.00.38:741][677]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-11.00.38:749][677]LogInit: FAudioDevice initialized.
+[2015.07.17-11.00.38:786][677]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-11.00.38:796][677]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-14.00.38
+[2015.07.17-11.00.38:796][677]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.00.38:797][677]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.00.38:797][677]LogWorld: Bringing up level for play took: 0.009383
+[2015.07.17-11.00.38:804][677]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.904
+[2015.07.17-11.00.55:493][727]Cmd: LevelEditor.ToggleImmersive
+[2015.07.17-11.00.57:693][831]Cmd: LevelEditor.ToggleImmersive
+[2015.07.17-11.01.15:195][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480EFB8720
+[2015.07.17-11.01.19:849][381]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.01.27:153][ 27]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.01.28:432][131]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.01.30:566][304]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.01.31:348][361]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.01.31:377][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-11.01.31:581][361]LogSavePackage: Save=180.613602ms
+[2015.07.17-11.01.31:582][361]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifleEACD34544CEBE080C991B2874F59DC97.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-11.01.32:608][441]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.17-11.01.32:620][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:620][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:620][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:621][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:634][441]LogPlayLevel: [PIE] Compiling AssaultRifle before PIE...
+[2015.07.17-11.01.32:986][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:986][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:986][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:987][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:988][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:988][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:988][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:988][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.32:988][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:180][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:180][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:180][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:181][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.01.33:210][441]LogPlayLevel: [PIE] Compiling FP_char before PIE...
+[2015.07.17-11.01.34:265][441]LogPlayLevel: [PIE] Compiling AK_BP before PIE...
+[2015.07.17-11.01.34:419][441]LogPlayLevel: [PIE] Compiling m1911_BP before PIE...
+[2015.07.17-11.01.34:576][441]LogPlayLevel: [PIE] Compiling FP_AB before PIE...
+[2015.07.17-11.01.35:397][441]LogPlayLevel: [PIE] Compiling m1911Hands_AB before PIE...
+[2015.07.17-11.01.35:669][441]LogPlayLevel: [PIE] Compiling akHands_AB before PIE...
+[2015.07.17-11.01.36:095][441]LogPlayLevel: PIE:  Blueprint regeneration took 3487 ms (7 blueprints)
+[2015.07.17-11.01.36:095][441]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 5:01:36 PM)
+[2015.07.17-11.01.36:096][441]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-11.01.36:109][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012991s)
+[2015.07.17-11.01.36:110][441]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-11.01.36:111][441]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2015.07.17-11.01.36:111][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015141s)
+[2015.07.17-11.01.36:176][441]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-11.01.36:184][441]LogInit: FAudioDevice initialized.
+[2015.07.17-11.01.36:223][441]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-11.01.36:232][441]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-14.01.36
+[2015.07.17-11.01.36:232][441]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.01.36:233][441]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.01.36:233][441]LogWorld: Bringing up level for play took: 0.009173
+[2015.07.17-11.01.36:240][441]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 4.34
+[2015.07.17-11.01.36:259][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.01.36:260][442]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_3
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.02.17:954][146]Cmd: LevelEditor.ToggleImmersive
+[2015.07.17-11.02.35:855][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.04.04:464][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480BF9C180
+[2015.07.17-11.04.11:299][587]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.10:598][817]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.11:447][870]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.19:131][384]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.19:387][395]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.22:188][596]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.25:983][868]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.28:701][ 79]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.30:840][258]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3327.EdGraphPin_74336''
+[2015.07.17-11.07.31:505][312]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.34:520][563]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.46:326][583]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.47:110][638]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.47:130][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-11.07.47:622][638]LogSavePackage: Save=202.719543ms
+[2015.07.17-11.07.47:623][638]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifleAC012D374FBA871308CA84972796BD2F.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-11.07.51:057][963]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.52:916][141]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.53:660][202]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.07.53:684][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AK/AK_BP" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AK_BP.uasset" SILENT=true
+[2015.07.17-11.07.53:763][202]LogSavePackage: Save=49.731243ms
+[2015.07.17-11.07.53:763][202]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AK_BP0C259813442CB480751E5799DF949939.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AK/AK_BP.uasset'
+[2015.07.17-11.07.54:203][248]BlueprintLog: New page: Compile AK_BP
+[2015.07.17-11.07.54:450][248]BlueprintEditorCompileResults: Info [0996.48] Compile of AK_BP successful! [in 246 ms]
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A3C
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1A6B
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:1AC7
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19A2
+[2015.07.17-11.07.54:452][248]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	FP_AB_C /Engine/Transient.CharacterMesh0:FP_AB_C_4
+	Function /Game/FP/BP_Anims/FP_AB.FP_AB_C:ExecuteUbergraph_FP_AB:19CD
+[2015.07.17-11.07.55:884][343]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.17-11.07.55:895][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:895][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:895][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:897][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.55:911][343]LogPlayLevel: [PIE] Compiling AssaultRifle before PIE...
+[2015.07.17-11.07.56:064][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.07.56:268][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:268][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:268][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:270][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:464][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:464][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:464][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:465][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.07.56:494][343]LogPlayLevel: [PIE] Compiling FP_char before PIE...
+[2015.07.17-11.07.57:550][343]LogPlayLevel: [PIE] Compiling AK_BP before PIE...
+[2015.07.17-11.07.57:706][343]LogPlayLevel: [PIE] Compiling m1911_BP before PIE...
+[2015.07.17-11.07.57:859][343]LogPlayLevel: [PIE] Compiling FP_AB before PIE...
+[2015.07.17-11.07.58:688][343]LogPlayLevel: [PIE] Compiling m1911Hands_AB before PIE...
+[2015.07.17-11.07.58:956][343]LogPlayLevel: [PIE] Compiling akHands_AB before PIE...
+[2015.07.17-11.07.59:378][343]LogPlayLevel: PIE:  Blueprint regeneration took 3493 ms (7 blueprints)
+[2015.07.17-11.07.59:378][343]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 5:07:59 PM)
+[2015.07.17-11.07.59:379][343]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-11.07.59:391][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012330s)
+[2015.07.17-11.07.59:392][343]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-11.07.59:393][343]LogPlayLevel: PIE: World Init took: (0.001842s)
+[2015.07.17-11.07.59:393][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014439s)
+[2015.07.17-11.07.59:459][343]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-11.07.59:467][343]LogInit: FAudioDevice initialized.
+[2015.07.17-11.07.59:507][343]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-11.07.59:517][343]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-14.07.59
+[2015.07.17-11.07.59:517][343]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.07.59:517][343]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.07.59:518][343]LogWorld: Bringing up level for play took: 0.008971
+[2015.07.17-11.07.59:525][343]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 3.625
+[2015.07.17-11.08.23:897][  8]Cmd: LevelEditor.ToggleImmersive
+[2015.07.17-11.09.06:706][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.09.30:449][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004802E2F7E0
+[2015.07.17-11.09.41:329][ 83]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.09.42:057][127]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.09.43:128][206]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.09.43:966][265]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.09.50:502][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:502][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:502][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.50:503][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.09.52:162][878]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.10.15:085][258]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.10.28:968][664]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.10.28:999][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-11.10.29:257][664]LogSavePackage: Save=233.824081ms
+[2015.07.17-11.10.29:259][664]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifle1B73677E403DBDFFFE9CFABCDF8B6FD6.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-11.10.30:508][756]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.17-11.10.30:520][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:520][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:520][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:521][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:521][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:521][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:521][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:521][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:522][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:535][756]LogPlayLevel: [PIE] Compiling AssaultRifle before PIE...
+[2015.07.17-11.10.30:931][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:931][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:931][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:932][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:932][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:933][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:933][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:933][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.30:933][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:139][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:139][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:139][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:140][756]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.31:170][756]LogPlayLevel: [PIE] Compiling FP_char before PIE...
+[2015.07.17-11.10.32:223][756]LogPlayLevel: [PIE] Compiling AK_BP before PIE...
+[2015.07.17-11.10.32:380][756]LogPlayLevel: [PIE] Compiling m1911_BP before PIE...
+[2015.07.17-11.10.32:536][756]LogPlayLevel: [PIE] Compiling FP_AB before PIE...
+[2015.07.17-11.10.33:361][756]LogPlayLevel: [PIE] Compiling m1911Hands_AB before PIE...
+[2015.07.17-11.10.33:638][756]LogPlayLevel: [PIE] Compiling akHands_AB before PIE...
+[2015.07.17-11.10.34:064][756]LogPlayLevel: PIE:  Blueprint regeneration took 3555 ms (7 blueprints)
+[2015.07.17-11.10.34:064][756]PIE: New page: PIE session: Minimal_Default (Jul 17, 2015, 5:10:34 PM)
+[2015.07.17-11.10.34:064][756]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.17-11.10.34:077][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012862s)
+[2015.07.17-11.10.34:078][756]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.17-11.10.34:079][756]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2015.07.17-11.10.34:079][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015011s)
+[2015.07.17-11.10.34:145][756]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.17-11.10.34:155][756]LogInit: FAudioDevice initialized.
+[2015.07.17-11.10.34:197][756]LogWorld: Game class is 'NewGameMode_C'
+[2015.07.17-11.10.34:207][756]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.17-14.10.34
+[2015.07.17-11.10.34:207][756]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.10.34:207][756]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.17-11.10.34:208][756]LogWorld: Bringing up level for play took: 0.009245
+[2015.07.17-11.10.34:215][756]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 4.315
+[2015.07.17-11.10.38:061][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.17-11.10.38:145][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000481A8D7380
+[2015.07.17-11.10.53:179][430]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.10.56:318][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:318][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:318][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:319][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:426][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:426][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:426][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:427][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.10.56:906][716]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.11.00:664][ 56]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.11.31:359][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:359][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:360][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:361][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:463][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:463][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:463][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.31:464][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.11.32:464][291]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.11.33:187][336]LogD3D11RHI: InitD3DDevice
+[2015.07.17-11.11.33:219][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Auto_weapon/AssaultRifle" FILE="../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset" SILENT=true
+[2015.07.17-11.11.33:445][336]LogSavePackage: Save=199.458664ms
+[2015.07.17-11.11.33:447][336]LogSavePackage: Moving '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Saved/AssaultRifle49302EDA46C2B8D7353AEBA38032158B.tmp' to '../../../../../Projects/ActualProject_1/FirstProjEver/JustDoIt/Content/Weapons/Auto_weapon/AssaultRifle.uasset'
+[2015.07.17-11.39.02:453][454]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.17-11.39.02:453][454]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.17-11.39.04:294][565]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.39.04:372][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.17-11.39.04:506][565]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.07.17-11.39.04:506][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.17-11.39.04:548][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.17-11.39.04:924][566]Cmd: QUIT_EDITOR
+[2015.07.17-11.39.06:073][566]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.17-11.39.06:263][566]LogExit: Preparing to exit.
+[2015.07.17-11.39.06:561][566]LogExit: Editor shut down
+[2015.07.17-11.39.06:561][566]LogExit: Transaction tracking system shut down
+[2015.07.17-11.39.06:566][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000487E06C9A0
+[2015.07.17-11.39.06:566][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048035956C0
+[2015.07.17-11.39.06:567][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004804BEBE20
+[2015.07.17-11.39.06:567][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048055D2840
+[2015.07.17-11.39.06:568][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048055D2700
+[2015.07.17-11.39.06:569][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004806CDB920
+[2015.07.17-11.39.06:569][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004806CDB740
+[2015.07.17-11.39.06:569][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004806C53C40
+[2015.07.17-11.39.06:569][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048102B89A0
+[2015.07.17-11.39.06:570][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004809D38220
+[2015.07.17-11.39.06:570][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480B8E3F60
+[2015.07.17-11.39.06:571][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480B8E39C0
+[2015.07.17-11.39.06:571][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480D8918A0
+[2015.07.17-11.39.06:572][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480D8905E0
+[2015.07.17-11.39.06:814][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048057BBB00
+[2015.07.17-11.39.06:814][566]LogExit: Object subsystem successfully closed.
+[2015.07.17-11.39.06:838][566]LogD3D11RHI: Shutdown
+[2015.07.17-11.39.06:838][566]LogD3D11RHI: CleanupD3DDevice
+[2015.07.17-11.39.06:910][566]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.17-11.39.06:930][566]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.17-11.39.06:930][566]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.17-11.39.06:930][566]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.17-11.39.06:930][566]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.17-11.39.06:931][566]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.17-11.39.06:933][566]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.17-11.39.06:934][566]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.17-11.39.06:934][566]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.17-11.39.06:934][566]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.17-11.39.06:934][566]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.17-11.39.07:034][566]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.17-11.39.07:035][566]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.17-11.39.07:036][566]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.17-11.39.07:036][566]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.17-11.39.07:036][566]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.17-11.39.07:036][566]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.17-11.39.07:036][566]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.17-11.39.07:037][566]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.17-11.39.07:038][566]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.17-11.39.07:038][566]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.17-11.39.07:173][566]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.17-11.39.07:372][566]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.17-11.39.07:383][566]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.17-11.39.07:383][566]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.17-11.39.07:383][566]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.17-11.39.07:383][566]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.17-11.39.07:383][566]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.17-11.39.07:384][566]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.17-11.39.07:386][566]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.17-11.39.07:386][566]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.17-11.39.07:386][566]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.17-11.39.07:387][566]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.17-11.39.07:388][566]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.17-11.39.07:388][566]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.17-11.39.07:489][566]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.17-11.39.07:489][566]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.17-11.39.07:497][566]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.17-11.39.07:500][566]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.17-11.39.07:569][566]LogDerivedDataCache: Shutdown
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.17-11.39.07:569][566]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.17-11.39.07:570][566]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.17-11.39.07:570][566]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.17-11.39.07:570][566]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.17-11.39.07:570][566]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.17-11.39.07:570][566]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.17-11.39.07:576][566]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.17-11.39.07:577][566]LogExit: Exiting.
+[2015.07.17-11.39.07:578][566]Log file closed, 07/17/15 14:39:07
